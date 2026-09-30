@@ -27,5 +27,30 @@ var evenOrOdd = function(number) {
     }
 };
  
-console.log(evenOrOdd(8));
+evenOrOdd(8);
+
+
+
+// problem - 4 
+var makeNegative = function(number) {
+  if (number < 0) {
+ return number
+  }
+  else {
+  return  number * -1
+  }
+};
+ 
+makeNegative(7); 
+
+
+// problem - 5
+
+var opposite = function(number) {
+ return number * -1
+};
+ 
+console.log(opposite(-6));
+
+
 
